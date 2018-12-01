@@ -1,50 +1,74 @@
 <?php include_once "init.php" ?> 
 <?php include_once "header.php" ?>
-
-<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Contratos</h1>
-    </div>
     
-    <div class="pt-3 pb-2 mb-3" >
-        <a href="passeio-novo.php" class="btn btn-sm btn-success">Novo Passeio</a>
-    </div>
-
-    <div class="card">
+<section class="pt-3 pb-2 mb-3 border-bottom">
+    
+    <h1 class="h2">Roteiros</h1>
+    <hr>
+    
+    <div class="card-deck">
         
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Outorgante</th>
-                        <th>Outorgado</th>                    
-                        <th>&nbsp;</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>1</th>
-                        <td>Rodrigo Arantes</td>
-                        <td>Marcelo Guimarães</td>
-                        <td><a class="btn btn-sm" href="contrato.php">Exibir Contrato</a></td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <td>Rafael Guimarães</td>
-                        <td>Rafale Ltda.</td>
-                        <td><a class="btn btn-sm" href="contrato.php">Exibir Contrato</a></td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <td>Roberto Souza Filho</td>
-                        <td>Banco Real S.A.</td>
-                        <td><a class="btn btn-sm" href="contrato.php">Exibir Contrato</a></td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="card">
+            <img src="img/roteiro-futebol.jpg" class="img-fluid" >           
+            <div class="card-body">
+                <h5 class="card-title">Roteiro<br><strong>Futebol</strong></h5>
+                <p class="card-text"><small class="text-muted">Próximo <strong> 11/12/2018</strong></small></p>
+                <a href="roteiro.php?id=10" class="btn btn-sm btn-danger">Detalhes</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="img/roteiro-moderna.jpg" class="img-fluid" > 
+            <div class="card-body">
+                <h5 class="card-title">Roteiro<br><strong>Arquitetura Modernista</strong></h5>
+                <p class="card-text"><small class="text-muted">Próximo <strong> 11/12/2018</strong></small></p>
+                <a href="roteiro.php?id=11" class="btn btn-sm btn-danger">Detalhes</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="img/roteiro-industrial.jpg" class="img-fluid" > 
+            <div class="card-body">
+                <h5 class="card-title">Roteiro<br><strong>Patrimônio Industrial</strong></h5>
+                <p class="card-text"><small class="text-muted">Próximo <strong> 15/01/2019</strong></small></p>
+                <a href="roteiro.php?id=12" class="btn btn-sm btn-danger">Detalhes</a>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="card-deck">        
+
+        <div class="card">
+            <img src="img/roteiro-cafe.jpg" class="img-fluid" >           
+            <div class="card-body">
+                <h5 class="card-title">Roteiro<br><strong>Café</strong></h5>
+                <p class="card-text"><small class="text-muted">Próximo <strong> 11/01/2019</strong></small></p>
+                <a href="roteiro.php?id=13" class="btn btn-sm btn-danger">Detalhes</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="img/roteiro-minhocao.jpg" class="img-fluid" > 
+            <div class="card-body">
+                <h5 class="card-title">Roteiro<br><strong>Minhocao</strong></h5>
+                <p class="card-text"><small class="text-muted">Próximo <strong> 21/01/2019</strong></small></p>
+                <a href="roteiro.php?id=14" class="btn btn-sm btn-danger">Detalhes</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="img/roteiro-belle.jpg" class="img-fluid" > 
+            <div class="card-body">
+                <h5 class="card-title">Roteiro<br><strong>Belle Epoque</strong></h5>
+                <p class="card-text"><small class="text-muted">Próximo <strong> 25/01/2019</strong></small></p>
+                <a href="roteiro.php?id=15" class="btn btn-sm btn-danger">Detalhes</a>
+            </div>
+        </div>
 
     </div>
 
-</main>
+</section>
 
 <?php include_once "footer.php" ?>

@@ -39,7 +39,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="list-contracts-list" href="roteiros.php" >
-                  <span data-feather="file-text"></span>
+                  <span data-feather="map"></span>
                   Roteiros
                 </a>
               </li>
