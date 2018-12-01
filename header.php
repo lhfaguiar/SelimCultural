@@ -15,7 +15,7 @@
   <body>
 
     <nav class="navbar navbar-dark bg-dark fixed-top bg-light flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0 p-0" href="/">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0 p-0 text-center" href="/">
         <img src="img/logo.png" class="img-fluid" >
       </a> 
     </nav>
