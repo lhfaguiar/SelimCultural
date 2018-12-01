@@ -6,8 +6,7 @@ function global__redirect( $url ){
 }
 
 function global__session_alert( $mensagem, $escopo = "user" ){
-	$ssId = "sc";
-	$_SESSION[$ssId."__".$escopo."_alert"] = $mensagem;
+	$_SESSION[ __APP_ID . "__" . $escopo . "_alert"] = $mensagem;
 }
 
 function helpers__alert(){

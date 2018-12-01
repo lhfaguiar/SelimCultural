@@ -4,6 +4,7 @@
     
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">    
+    
     <title>Selim Cultural</title>
 
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css">
@@ -37,7 +38,7 @@
                 </a>
               </li>
               <li class="nav-item">
-              <a class="nav-link" id="list-contracts-list" href="roteiros.php" >
+                <a class="nav-link" id="list-contracts-list" href="roteiros.php" >
                   <span data-feather="file-text"></span>
                   Roteiros
                 </a>
@@ -46,4 +47,4 @@
           </div>
           
         </nav>
-       
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">       

@@ -1,9 +1,8 @@
 <?php include_once "init.php" ?> 
 <?php include_once "header.php" ?>
 
-<?php $dataPerfil = $_SESSION['data']['perfil'][0]?>
+    <?php $dataPerfil = $_SESSION['data']['perfil'][0]?>
 
-<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
     <div class="pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Perfil</h1>
     </div> 
@@ -21,8 +20,8 @@
                         <input type="nome" class="form-control" id="nome" value="<?=$dataPerfil['nome']?>">
                     </div>
                     <div class="form-group">
-                        <label for="email">Data de Nascimento</label>
-                        <input type="email" class="form-control" id="email" value="<?=$dataPerfil['nascimento']?>" >
+                        <label for="nascimento">Data de Nascimento</label>
+                        <input type="nascimento" class="form-control" id="nascimento" value="<?=$dataPerfil['nascimento']?>" >
                     </div>                        
                     <div class="form-group">
                         <label for="email">E-Mail</label>
@@ -34,6 +33,5 @@
             </div>
         </div>
     </div>
-</main>
 
 <?php include_once "footer.php" ?>

@@ -11,3 +11,5 @@ foreach($__data as $__recordset){
     $_SESSION['data'] = require_once $__recordset;
     ob_get_clean();
 }
+
+define('__APP_ID','SELIM');

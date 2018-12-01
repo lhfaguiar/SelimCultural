@@ -4,3 +4,8 @@
 .navbar-brand img{
     height: 50px;
 }
+
+section > h1.h2{
+    font-size:24px;
+    font-weight: bold;
+}
