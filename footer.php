@@ -1,3 +1,4 @@
+              <hr>
               <footer class="footer" class="bg-dark text-light text-right p-2">HackAmericas 2018</footer>
             </main>                                
         </div>

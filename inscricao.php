@@ -1,31 +1,38 @@
 <?php include_once "init.php" ?> 
 <?php include_once "header.php" ?>
 
-<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-    <div class="pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Inscrição</h1>
-    </div>  
+<?php $dataPerfil = $_SESSION['data']['perfil'][0]?>
 
-    <h3>Roteiro <strong>Futebol</strong></h3>
+<div class="pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Inscrição</h1>
+</div>
 
-    <div class="container-fluid py-4">
+<div class="card">
+    <div class="card-body">
+    <div class="container-fluid">
         <div class="row">
             <div class="col col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <form action="contrato.php" method="post">
-                            
- 
+                <form method="post" action="inscricao-ok.php">
+                    
+                    <h4>Roteiro <strong>Futebol</strong></h4>                
+                    <hr>
 
-                            <button type="submit" class="btn btn-sm btn-primary">Finalizar Inscrição</button>
-
-                        </form>                       
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="nome" class="form-control" id="nome" readonly value="<?=$dataPerfil['nome']?>">
                     </div>
-                </div>
-            </div>
+                    
+                    <div class="form-group">
+                        <label for="data">Data</label>
+                        <input type="data" class="form-control" id="data" readonly value="15/01/2019" >
+                    </div>                        
+                    
+                    <button type="submit" class="btn btn-sm btn-danger">Confirmar Inscrição</button>
+                    
+                </form>                    
+            </div>                
         </div>
     </div>
-              
-</main>
-
+</div>
+</div>
 <?php include_once "footer.php" ?>
